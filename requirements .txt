@@ -1,3 +1,4 @@
 streamlit
 pandas
 scikit-learn  <- **นี่คือตัวหลักที่น่าจะขาดหายไป**
+scikit-learn
