@@ -10,7 +10,7 @@ def load_model():
             model = pickle.load(f)
         return model
     except FileNotFoundError:
-        st.error(f"Model file not found!")
+        st.error("Model file not found!")
         return None
 
 model = load_model()
@@ -32,10 +32,3 @@ if model:
         })
         pred = model.predict(input_data)[0]
         st.success(f"Estimated Sales: ${pred:,.2f}K")
-```
-
-**requirements.txt:**
-```
-streamlit
-pandas
-scikit-learn
