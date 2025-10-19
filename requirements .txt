@@ -1,4 +1,5 @@
-streamlit # [cite: 40]
-pandas # [cite: 41]
-scikit-learn # [cite: 42]
-joblib # จำเป็นสำหรับการโหลด/บันทึกโมเดล
+streamlit
+pandas
+joblib
+scikit-learn
+pandas
